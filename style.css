@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@700&family=Fira+Sans&family=Lobster&family=The+Nautigal:wght@700&display=swap');
+body
+{
+    background-color: tomato;
+    text-align: center;
+    margin: 0;
+}
+.menu
+{
+    position: fixed;
+    background-color: blue;
+    width: 100%;
+    margin: 0px;
+}
+.links
+{
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;   
+}
+a
+{
+    color:white ;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px gray;
+}
+.links :hover
+{
+    font-size: 35px;
+    text-decoration: underline;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+#home
+{
+    background: linear-gradient(rgb(52, 229, 242),rgb(49, 237, 199));
+    color: bisque;
+}
+.profile
+{
+    width: 300px;
+    border-radius: 100%;
+    margin-top: 80px
+}
+h1
+{
+    font-size: 40px;
+    font-weight: 300px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#name
+{
+    line-height: 1.2;
+    font-family: 'The Nautigal', cursive;
+    font-size: 80px;
+}
+h2
+{
+    font-size: 30px;
+    font-weight: 300px;
+    font-family: 'Fira Sans', sans-serif;
+}
+#bio
+{
+    font-family: 'Lobster', cursive;
+    padding: 50px;
+    font-size: 20px;
+    
+}
+.line
+{
+    height: 3px;
+    background: black;
+    width: 70px;
+    margin: auto;
+
+}
+p
+{
+    color: mediumblue;
+    font-size: 25px;
+    font-family: 'Caveat', cursive;
+}
+#documentry a{
+    text-shadow: none;
+    text-decoration: underline;
+
+}
+#documentry a:hover
+{
+    color: indigo;
+}
+#contact
+{
+    background-color: aqua;
+}
+#contact iframe{
+    width: 100%;
+    margin-top: 10px;
+}
+.contact1 a{
+    color: white;
+    text-shadow: none;
+}
+.contact1 h3
+{
+    display: inline;
+}
